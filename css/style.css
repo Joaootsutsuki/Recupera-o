@@ -1,0 +1,28 @@
+img{
+    border-radius: 50px;
+    width: 250px;
+}
+
+body{
+    max-width: 600px;
+    text-align: center;
+    display: inline;
+}
+
+table{
+    width: 300px;
+    border: solid black;
+    border-width: thin;
+    
+}
+
+td {
+    border: solid black;
+    border-width: thin;
+}
+
+h2{
+    background-color: gray;
+    border: thin solid black;
+    width: 100%;
+}
