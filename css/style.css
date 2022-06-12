@@ -1,18 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap');
+
+:root /* Variaveis */ { 
+    --cor-de-fundo: #bdbdbd;
+    --fonte: Radio Canada;
+    --cor-fonte: black;
+    --cor-titulo: gray;
+    --cor-tabela: linear-gradient(to bottom right, cyan, rgb(0, 121, 161));
+}
+
 img{
     border-radius: 50px;
     width: 250px;
+}
+
+.center{
+    margin: auto;
 }
 
 body{
     max-width: 600px;
     text-align: center;
     display: inline;
+    font-family: var(--fonte);
+    background-color: var(--cor-de-fundo);
 }
 
 table{
     width: 300px;
     border: solid black;
     border-width: thin;
+    margin:auto;
+    background-image: var(--cor-tabela);
     
 }
 
@@ -22,7 +40,6 @@ td {
 }
 
 h2{
-    background-color: gray;
+    background-color: var(--cor-titulo);
     border: thin solid black;
-    width: 100%;
 }
